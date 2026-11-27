@@ -1,0 +1,13 @@
+Test Case ID,Module,Endpoint,Method,Test Data/Scenario,Expected Result,Actual Result (fill after execution),Status (Pass/Fail/Blocked/Not Run),Evidence
+API001,Products,GET /products,GET,Valid request,200 response; products array and pagination fields are present.,,Not Run,
+API002,Products,GET /products/1,GET,Existing product ID,"200 response; product has id, title, and price.",,Not Run,
+API003,Products,GET /products/invalid,GET,Non-numeric product ID,API returns an appropriate not-found or validation response; inspect actual contract.,,Not Run,
+API004,Products,GET /products/search?q=phone,GET,Search term with matches,200 response; products array is returned.,,Not Run,
+API005,Products,GET /products?limit=5,GET,Valid limit parameter,Response contains no more than five products.,,Not Run,
+API006,Users,GET /users,GET,Valid request,200 response; users array is present.,,Not Run,
+API007,Carts,GET /carts,GET,Valid request,200 response; carts array is present.,,Not Run,
+API008,Auth,POST /auth/login,POST,Valid documented demo credentials,Successful authentication response includes expected authentication fields.,,Not Run,
+API009,Auth,POST /auth/login,POST,Invalid password,Authentication is rejected with an error response.,,Not Run,
+API010,Products,POST /products/add,POST,Valid product JSON body,Successful simulated creation response contains expected product fields.,,Not Run,
+API011,Products,PUT /products/1,PUT,Existing product ID and update body,Successful simulated update response reflects submitted fields.,,Not Run,
+API012,Products,DELETE /products/1,DELETE,Existing product ID,Successful simulated deletion response indicates the target product.,,Not Run,
