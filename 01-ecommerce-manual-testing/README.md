@@ -33,8 +33,8 @@ Record your actual environment before execution:
 |---|---|
 | Application | SauceDemo |
 | URL | https://www.saucedemo.com/ |
-| OS | Fill in your OS/version |
-| Browser | Fill in browser/version |
+| OS | Windows 11 |
+| Browser | Google Chrome |
 | Test date | July 2026 |
 | Tester | Alish Upreti |
 
