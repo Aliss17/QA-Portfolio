@@ -35,8 +35,8 @@ Record your actual environment before execution:
 | URL | https://www.saucedemo.com/ |
 | OS | Fill in your OS/version |
 | Browser | Fill in browser/version |
-| Test date | Fill in date |
-| Tester | Your name |
+| Test date | July 2026 |
+| Tester | Alish Upreti |
 
 ## How to execute
 
