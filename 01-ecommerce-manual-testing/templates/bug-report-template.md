@@ -1,9 +1,13 @@
 # Bug Report Template
 
-- **Bug ID:**
-- **Title:**
-- **Module:**
+- **Bug ID:**  BUG-001
+- **Title:** Product sorting fails for error_user account except Name (A to Z).
+- **Module:**  Product Inventory / Sorting
 - **Environment (OS/browser/version):**
+Application: SauceDemo
+Account: error_user
+Browser: Google Chrome
+Operating System: Windows
 - **Build or URL:**
 - **Preconditions:**
 - **Steps to reproduce:**
@@ -12,10 +16,10 @@
   3.
 - **Expected result:**
 - **Actual result:**
-- **Severity:** Critical / High / Medium / Low
-- **Priority:** High / Medium / Low
+- **Severity:** 
+- **Priority:** Medium (proposed)
 - **Reproducibility:** Always / Sometimes / Once
-- **Status:** New / Open / In Progress / Fixed / Retest / Closed
+- **Status:** Open 
 - **Evidence:** screenshot or short recording path
 
 Only file a bug after reproducing it and confirming the expected behavior.
