@@ -1,25 +1,71 @@
-# QA Testing Portfolio
+# Software Quality Assurance Portfolio
 
-Two practical, beginner-to-intermediate QA portfolio projects:
+A collection of hands-on Software Quality Assurance projects demonstrating practical skills in manual testing, API testing, test case design, defect reporting, and test documentation.
 
-1. **E-commerce Website Manual Testing** — test planning, test cases, execution evidence, and defect reporting using [SauceDemo](https://www.saucedemo.com/).
-2. **E-commerce REST API Testing** — API test scenarios and a ready-to-import Postman collection using [DummyJSON](https://dummyjson.com/docs).
+## Projects
 
-## Repository contents
+### 1. E-commerce Website Manual Testing
 
-- `01-ecommerce-manual-testing/` — manual testing documentation and test case tracker.
-- `02-ecommerce-api-testing/` — API test plan, test cases, Postman collection, JavaScript assertions, and SQL practice.
-- `PORTFOLIO_GUIDE.md` — instructions for completing, customizing, and publishing the projects.
+**Application:** [SauceDemo](https://www.saucedemo.com/)
 
-## Important
+**Testing activities:**
+- Prepared a test plan and test scenarios.
+- Designed and executed functional test cases.
+- Performed positive and negative testing.
+- Tested login, product inventory, sorting, shopping cart, and checkout.
+- Documented actual test results and defects.
+- Prepared test execution reports.
 
-This repository is a **project starter kit**, not a claim that the test execution has already been performed. Run the tests yourself, record the actual results, attach your own screenshots, and report only defects you can reproduce. Do not present example/template outcomes as real findings.
+**Testing results:**
+- Total test cases: [Actual number]
+- Passed: [Actual number]
+- Failed: [Actual number]
+- Blocked: [Actual number]
+- Not Run: [Actual number]
 
-## Suggested completion order
+### 2. E-commerce REST API Testing
 
-1. Read the project README in each folder.
-2. Execute the manual test cases against SauceDemo.
-3. Import and run the Postman collection against DummyJSON.
-4. Complete the SQL exercises using your own local database.
-5. Add genuine execution evidence and update each report.
-6. Push the completed repositories to your GitHub account.
+**API:** [DummyJSON](https://dummyjson.com/docs)
+
+**Testing activities:**
+- Tested REST APIs using Postman.
+- Validated GET, POST, PUT, and DELETE requests.
+- Tested authentication and invalid inputs.
+- Verified HTTP status codes and JSON responses.
+- Implemented JavaScript assertions.
+- Practiced SQL queries using a local database.
+
+**Testing results:**
+- Total API test cases: [Actual number]
+- Passed: [Actual number]
+- Failed: [Actual number]
+- Blocked: [Actual number]
+
+## Tools and Technologies
+
+- Manual Testing
+- Postman
+- SQL
+- JavaScript
+- Git and GitHub
+- REST API Testing
+
+## Repository Structure
+
+- `01-ecommerce-manual-testing/` — Test plan, test cases, execution reports, and defect documentation.
+- `02-ecommerce-api-testing/` — API test plan, test cases, Postman collection, JavaScript assertions, and SQL exercises.
+- `PORTFOLIO_GUIDE.md` — Project documentation and guidance.
+
+## Test Evidence
+
+Screenshots, API responses, and testing reports are available in the respective project evidence folders.
+
+## Learning Outcomes
+
+- Understanding of software testing methodologies.
+- Practical experience in manual and API testing.
+- Ability to design and execute test cases.
+- Understanding of defect identification and reporting.
+- Experience with Postman, SQL, and test documentation.
+
+
