@@ -50,7 +50,7 @@ Record your actual environment before execution:
 
 ## Test data
 
-Use only the public demo test data provided by SauceDemo. Not use personal credentials or payment information.
+Using only the public demo test data provided by SauceDemo. Not using personal credentials or payment information.
 
 ## Deliverables
 
