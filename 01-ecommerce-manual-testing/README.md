@@ -61,4 +61,4 @@ Use only the public demo test data provided by SauceDemo. Do not use personal cr
 
 ## Status
 
-**Starter project:** execution results are intentionally blank until you perform the tests.
+**Status project:** Testing completed. Test execution results, reports, and supporting evidence are documented in the respective project folders.
