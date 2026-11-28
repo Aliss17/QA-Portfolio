@@ -1,0 +1,46 @@
+
+# BUG-002: Error message appears after logging in with error_user
+
+## 1. Bug Information
+- **Bug ID:** BUG-002
+- **Title:** Application displays an unexpected error message after login with error_user.
+- **Module:** Login / Authentication
+- **Application URL:** https://www.saucedemo.com/
+- **Build/Version:** Not specified (Public demo website)
+- **Test Account:** error_user
+- **Browser:** Google Chrome
+- **Operating System:** Windows (enter actual version)
+- **Severity:** Major (proposed)
+- **Priority:** Medium (proposed)
+- **Status:** Open
+- **Reproducibility:** To be confirmed through repeated attempts.
+
+## 2. Preconditions
+- SauceDemo website is accessible.
+- User is on the login page.
+- Valid demo credentials are available.
+
+## 3. Steps to Reproduce
+1. Open https://www.saucedemo.com/.
+2. Enter username: `error_user`.
+3. Enter password: `secret_sauce`.
+4. Click the Login button.
+5. Observe the application response.
+
+## 4. Expected Result
+The user should be able to log in and access the product inventory page without an unexpected error message.
+
+## 5. Actual Result
+The application displays the following error message:
+
+`Setting is broken. This error has been reported to Backtrace.`
+
+## 6. Evidence
+- Attach a screenshot showing the error message.
+- Screenshot path: `evidence/BUG-002-login-error.png`
+
+## 7. Notes
+- Verify whether the error appears consistently across repeated login attempts.
+- Compare the behavior with `standard_user`.
+- Record whether the inventory page loads despite the error.
+
